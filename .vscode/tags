@@ -1,0 +1,435 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABCMeta	../lab2/layers.py	/^from abc import ABCMeta, abstractmethod$/;"	kind:namespace	line:1
+AP	../lab0/binlogreg.py	/^    AP = data.eval_AP(Y_[probs.argsort()])$/;"	kind:variable	line:79
+BATCH_SIZE	../lab2/tf_cifar.py	/^BATCH_SIZE = 196$/;"	kind:variable	line:16
+BATCH_SIZE	../lab2/tf_train_l2reg.py	/^BATCH_SIZE = 50$/;"	kind:variable	line:14
+C	../lab1/mnist_shootout.py	/^C = mnist.train.labels.shape[1]$/;"	kind:variable	line:18
+Convolution	../lab2/layers.py	/^class Convolution(Layer):$/;"	kind:class	line:57
+D	../lab1/mnist_shootout.py	/^D = mnist.train.images.shape[1]$/;"	kind:variable	line:17
+DATA_DIR	../lab2/tf_cifar.py	/^DATA_DIR = '.\/cifar\/'$/;"	kind:variable	line:10
+DATA_DIR	../lab2/tf_train_l2reg.py	/^DATA_DIR = '.\/mnist\/'$/;"	kind:variable	line:10
+DATA_DIR	../lab2/train.py	/^DATA_DIR = '.\/mnist\/'$/;"	kind:variable	line:11
+DATA_DIR	../lab2/train_l2reg.py	/^DATA_DIR = '.\/mnist\/'$/;"	kind:variable	line:11
+Extension	../lab2/setup_cython.py	/^from distutils.extension import Extension$/;"	kind:namespace	line:6
+FC	../lab2/layers.py	/^class FC(Layer):$/;"	kind:class	line:174
+Flatten	../lab2/layers.py	/^class Flatten(Layer):$/;"	kind:class	line:153
+IMG_HEIGHT	../lab2/tf_cifar.py	/^IMG_HEIGHT = 32$/;"	kind:variable	line:12
+IMG_WIDTH	../lab2/tf_cifar.py	/^IMG_WIDTH = 32$/;"	kind:variable	line:13
+KSVMWrap	../lab1/ksvm_wrap.py	/^class KSVMWrap:$/;"	kind:class	line:6
+L2Regularizer	../lab2/layers.py	/^class L2Regularizer():$/;"	kind:class	line:287
+LR_POLICY	../lab2/tf_train_l2reg.py	/^LR_POLICY = {1:{'lr':1e-1}, 3:{'lr':1e-2}, 5:{'lr':1e-3}, 7:{'lr':1e-4}}$/;"	kind:variable	line:15
+Layer	../lab2/layers.py	/^class Layer(metaclass = ABCMeta):$/;"	kind:class	line:20
+MAX_EPOCHS	../lab2/tf_cifar.py	/^MAX_EPOCHS = 100$/;"	kind:variable	line:17
+MAX_EPOCHS	../lab2/tf_train_l2reg.py	/^MAX_EPOCHS = 8$/;"	kind:variable	line:13
+MaxPooling	../lab2/layers.py	/^class MaxPooling(Layer):$/;"	kind:class	line:114
+N	../lab1/mnist_shootout.py	/^N = mnist.train.images.shape[0]$/;"	kind:variable	line:16
+NUM_CHANNELS	../lab2/tf_cifar.py	/^NUM_CHANNELS = 3$/;"	kind:variable	line:14
+NUM_CLASSES	../lab2/tf_cifar.py	/^NUM_CLASSES = 10$/;"	kind:variable	line:15
+Random2DGaussian	../lab0/data.py	/^class Random2DGaussian:$/;"	kind:class	line:6
+Random2DGaussian	../lab1/data.py	/^class Random2DGaussian:$/;"	kind:class	line:6
+ReLU	../lab2/layers.py	/^class ReLU(Layer):$/;"	kind:class	line:231
+RegularizedLoss	../lab2/layers.py	/^class RegularizedLoss():$/;"	kind:class	line:315
+SAVE_DIR	../lab2/tf_cifar.py	/^SAVE_DIR = ".\/out_cifar\/"$/;"	kind:variable	line:11
+SAVE_DIR	../lab2/tf_train_l2reg.py	/^SAVE_DIR = ".\/out_l2_tf\/"$/;"	kind:variable	line:11
+SAVE_DIR	../lab2/train.py	/^SAVE_DIR = ".\/out\/"$/;"	kind:variable	line:12
+SAVE_DIR	../lab2/train_l2reg.py	/^SAVE_DIR = ".\/out_l2\/"$/;"	kind:variable	line:12
+SoftmaxCrossEntropyWithLogits	../lab2/layers.py	/^class SoftmaxCrossEntropyWithLogits():$/;"	kind:class	line:259
+TFDeep	../lab1/mnist_shootout.py	/^from tf_deep import TFDeep$/;"	kind:namespace	line:3
+TFDeep	../lab1/tf_deep.py	/^class TFDeep:$/;"	kind:class	line:6
+TFLogreg	../lab1/tf_logreg.py	/^class TFLogreg:$/;"	kind:class	line:6
+W	../lab1/mnist_shootout.py	/^W = model.get_Ws()[0]$/;"	kind:variable	line:47
+WEIGHT_DECAY	../lab2/tf_cifar.py	/^WEIGHT_DECAY = 1e-4$/;"	kind:variable	line:18
+WEIGHT_DECAY	../lab2/tf_train_l2reg.py	/^WEIGHT_DECAY = 1e-4$/;"	kind:variable	line:12
+X	../lab1/tf_linreg.py	/^X = tf.placeholder(tf.float32, [None])$/;"	kind:variable	line:7
+Y	../lab0/binlogreg.py	/^    Y = np.array(probs > 0.5, dtype=np.int32)$/;"	kind:variable	line:69
+Y	../lab0/data.py	/^  Y = myDummyDecision(X)>0.5  $/;"	kind:variable	line:208
+Y	../lab0/logreg.py	/^    Y = np.argmax(probs, axis=1)$/;"	kind:variable	line:82
+Y	../lab1/fcann2.py	/^    Y = np.argmax(fcann2_classify(X, W1, b1, W2, b2), axis=1)$/;"	kind:variable	line:68
+Y	../lab1/ksvm_wrap.py	/^    Y = svm.predict(X)$/;"	kind:variable	line:29
+Y	../lab1/tf_deep.py	/^    Y = model.eval(X).argmax(axis=1)$/;"	kind:variable	line:141
+Y	../lab1/tf_linreg.py	/^Y = a * X + b$/;"	kind:variable	line:13
+Y	../lab1/tf_logreg.py	/^    Y = probs.argmax(axis=1)$/;"	kind:variable	line:79
+Y_	../lab1/tf_linreg.py	/^Y_ = tf.placeholder(tf.float32, [None])$/;"	kind:variable	line:8
+Y_test	../lab1/mnist_shootout.py	/^Y_test = model.predict(mnist.test.images)$/;"	kind:variable	line:68
+Y_test	../lab1/mnist_shootout.py	/^Y_test = model.predict(mnist.test.images)$/;"	kind:variable	line:74
+Y_test	../lab1/mnist_shootout.py	/^Y_test = np.argmax(model.eval(mnist.test.images), axis=1)$/;"	kind:variable	line:24
+Y_test	../lab1/mnist_shootout.py	/^Y_test = np.argmax(model.eval(mnist.test.images), axis=1)$/;"	kind:variable	line:38
+Y_test	../lab1/mnist_shootout.py	/^Y_test = np.argmax(model.eval(mnist.test.images), axis=1)$/;"	kind:variable	line:44
+Y_test	../lab1/mnist_shootout.py	/^Y_test = np.argmax(model.eval(mnist.test.images), axis=1)$/;"	kind:variable	line:55
+Y_test	../lab1/mnist_shootout.py	/^Y_test = np.argmax(model.eval(mnist.test.images), axis=1)$/;"	kind:variable	line:61
+Y_test	../lab1/mnist_shootout.py	/^Y_test = np.argmax(model1.eval(mnist.test.images), axis=1)$/;"	kind:variable	line:31
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:21
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:28
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:37
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:43
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:54
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:60
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:67
+Y_test_	../lab1/mnist_shootout.py	/^Y_test_ = np.argmax(mnist.test.labels, axis=1)$/;"	kind:variable	line:73
+Y_train_	../lab1/mnist_shootout.py	/^Y_train_ = np.argmax(mnist.train.labels, axis=1)$/;"	kind:variable	line:27
+Yoh_	../lab1/tf_deep.py	/^    Yoh_ = data.class_to_onehot(Y_)$/;"	kind:variable	line:132
+Yoh_	../lab1/tf_logreg.py	/^    Yoh_ = data.class_to_onehot(Y_)$/;"	kind:variable	line:69
+__init__	../lab0/data.py	/^  def __init__(self):$/;"	kind:member	line:27
+__init__	../lab1/data.py	/^  def __init__(self):$/;"	kind:member	line:27
+__init__	../lab1/ksvm_wrap.py	/^    def __init__(self, X, Y_, param_svm_c=1, param_svm_gamma='auto'):$/;"	kind:member	line:7
+__init__	../lab1/tf_deep.py	/^    def __init__(self, layers, param_delta=0.1, param_lambda=1e-4, $/;"	kind:member	line:7
+__init__	../lab1/tf_logreg.py	/^    def __init__(self, D, C, param_delta=0.5, param_lambda=1e-3):$/;"	kind:member	line:8
+__init__	../lab2/layers.py	/^  def __init__(self):$/;"	kind:member	line:260
+__init__	../lab2/layers.py	/^  def __init__(self, data_loss, regularizer_losses):$/;"	kind:member	line:316
+__init__	../lab2/layers.py	/^  def __init__(self, input_layer, name):$/;"	kind:member	line:154
+__init__	../lab2/layers.py	/^  def __init__(self, input_layer, name):$/;"	kind:member	line:232
+__init__	../lab2/layers.py	/^  def __init__(self, input_layer, name, pool_size=2, stride=2):$/;"	kind:member	line:115
+__init__	../lab2/layers.py	/^  def __init__(self, input_layer, num_filters, kernel_size, name, padding='SAME',$/;"	kind:member	line:60
+__init__	../lab2/layers.py	/^  def __init__(self, input_layer, num_outputs, name,$/;"	kind:member	line:175
+__init__	../lab2/layers.py	/^  def __init__(self, weights, weight_decay, name):$/;"	kind:member	line:288
+a	../lab1/tf_linreg.py	/^a = tf.Variable(0.0)$/;"	kind:variable	line:9
+abstractmethod	../lab2/layers.py	/^from abc import ABCMeta, abstractmethod$/;"	kind:namespace	line:1
+accuracy_score	../lab0/data.py	/^from sklearn.metrics import accuracy_score, recall_score, precision_score$/;"	kind:namespace	line:4
+accuracy_score	../lab1/data.py	/^from sklearn.metrics import accuracy_score, recall_score, precision_score$/;"	kind:namespace	line:4
+b	../lab1/tf_linreg.py	/^b = tf.Variable(0.0)$/;"	kind:variable	line:10
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, grad_out):$/;"	kind:member	line:137
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, grad_out):$/;"	kind:member	line:98
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, grads):$/;"	kind:member	line:170
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, grads):$/;"	kind:member	line:210
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, grads):$/;"	kind:member	line:247
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, grads):$/;"	kind:member	line:35
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, x, y):$/;"	kind:member	line:277
+backward_inputs	../lab2/layers.py	/^  def backward_inputs(self, x, y):$/;"	kind:member	line:328
+backward_params	../lab2/layers.py	/^  def backward_params(self):$/;"	kind:member	line:307
+backward_params	../lab2/layers.py	/^  def backward_params(self):$/;"	kind:member	line:331
+backward_params	../lab2/layers.py	/^  def backward_params(self, grad_out):$/;"	kind:member	line:107
+backward_params	../lab2/layers.py	/^  def backward_params(self, grads):$/;"	kind:member	line:219
+backward_params	../lab2/layers.py	/^  def backward_params(self, grads):$/;"	kind:member	line:44
+backward_pass	../lab2/nn.py	/^def backward_pass(net, loss, x, y):$/;"	kind:function	line:16
+bbox	../lab0/binlogreg.py	/^    bbox=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:72
+bbox	../lab0/logreg.py	/^    bbox=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:86
+bbox	../lab1/fcann2.py	/^    bbox=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:69
+bbox	../lab1/ksvm_wrap.py	/^    bbox=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:38
+bbox	../lab1/tf_deep.py	/^    bbox=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:148
+bbox	../lab1/tf_logreg.py	/^    bbox=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:89
+binlogreg.py	../lab0/binlogreg.py	1;"	kind:file	line:1
+binlogreg_classify	../lab0/binlogreg.py	/^def binlogreg_classify(X, w, b):$/;"	kind:function	line:42
+binlogreg_decfun	../lab0/binlogreg.py	/^def binlogreg_decfun(w,b):$/;"	kind:function	line:53
+binlogreg_train	../lab0/binlogreg.py	/^def binlogreg_train(X, Y_, param_niter=10000, param_delta=0.8):$/;"	kind:function	line:11
+build_dnn	../lab2/tf_cifar.py	/^def build_dnn(inputs):$/;"	kind:function	line:99
+build_dnn	../lab2/tf_train_l2reg.py	/^def build_dnn(inputs):$/;"	kind:function	line:46
+check_grad_inputs	../lab2/check_grads.py	/^def check_grad_inputs(layer, x, grad_out):$/;"	kind:function	line:35
+check_grad_params	../lab2/check_grads.py	/^def check_grad_params(layer, x, w, b, grad_out):$/;"	kind:function	line:47
+check_grads.py	../lab2/check_grads.py	1;"	kind:file	line:1
+class_to_onehot	../lab0/data.py	/^def class_to_onehot(Y):$/;"	kind:function	line:105
+class_to_onehot	../lab1/data.py	/^def class_to_onehot(Y):$/;"	kind:function	line:105
+classify	../lab0/binlogreg.py	/^    def classify(X):$/;"	kind:function	line:54
+classify	../lab0/logreg.py	/^    def classify(X):$/;"	kind:function	line:69
+classify	../lab1/fcann2.py	/^    def classify(X):$/;"	kind:function	line:58
+col2im_cython	../lab2/im2col_cython.pyx	/^def col2im_cython(np.ndarray[DTYPE_t, ndim=2] cols, int N, int C, int H, int W,$/;"	kind:function	line:82
+col2im_cython	../lab2/layers.py	/^from im2col_cython import col2im_cython, im2col_cython$/;"	kind:namespace	line:6
+col2im_cython_inner	../lab2/im2col_cython.pyx	/^cdef int col2im_cython_inner(np.ndarray[DTYPE_t, ndim=2] cols,$/;"	kind:function	line:100
+config	../lab2/train.py	/^config = {}$/;"	kind:variable	line:14
+config	../lab2/train_l2reg.py	/^config = {}$/;"	kind:variable	line:14
+conv	../lab2/check_grads.py	/^conv = layers.Convolution(x, 2, 3, "conv1")$/;"	kind:variable	line:72
+conv_layer	../lab2/tf_cifar.py	/^def conv_layer(inputs, filters=32, kernel_size=[5, 5], $/;"	kind:function	line:73
+conv_layer	../lab2/tf_train_l2reg.py	/^def conv_layer(inputs, filters=32, kernel_size=[5, 5], $/;"	kind:function	line:35
+count_params	../lab1/tf_deep.py	/^    def count_params(self):$/;"	kind:member	line:104
+cross_entropy_loss	../lab0/binlogreg.py	/^def cross_entropy_loss(prob, y):$/;"	kind:function	line:8
+cython	../lab2/im2col_cython.pyx	/^cimport cython$/;"	kind:namespace	line:28
+cythonize	../lab2/setup_cython.py	/^from Cython.Build import cythonize$/;"	kind:namespace	line:7
+d0max	../lab0/data.py	/^  d0max=10$/;"	kind:variable	line:22
+d0max	../lab1/data.py	/^  d0max=10$/;"	kind:variable	line:22
+d0min	../lab0/data.py	/^  d0min=0 $/;"	kind:variable	line:21
+d0min	../lab1/data.py	/^  d0min=0 $/;"	kind:variable	line:21
+d1max	../lab0/data.py	/^  d1max=10$/;"	kind:variable	line:24
+d1max	../lab1/data.py	/^  d1max=10$/;"	kind:variable	line:24
+d1min	../lab0/data.py	/^  d1min=0 $/;"	kind:variable	line:23
+d1min	../lab1/data.py	/^  d1min=0 $/;"	kind:variable	line:23
+data	../lab0/binlogreg.py	/^import data$/;"	kind:namespace	line:1
+data	../lab0/logreg.py	/^import data$/;"	kind:namespace	line:1
+data	../lab1/fcann2.py	/^import data$/;"	kind:namespace	line:1
+data	../lab1/ksvm_wrap.py	/^import data$/;"	kind:namespace	line:3
+data	../lab1/tf_deep.py	/^import data$/;"	kind:namespace	line:4
+data	../lab1/tf_logreg.py	/^import data$/;"	kind:namespace	line:4
+data.py	../lab0/data.py	1;"	kind:file	line:1
+data.py	../lab1/data.py	1;"	kind:file	line:1
+data_loss	../lab2/train_l2reg.py	/^data_loss = layers.SoftmaxCrossEntropyWithLogits()$/;"	kind:variable	line:57
+dataset	../lab2/train.py	/^dataset = input_data.read_data_sets(DATA_DIR, one_hot=True)$/;"	kind:variable	line:22
+dataset	../lab2/train_l2reg.py	/^dataset = input_data.read_data_sets(DATA_DIR, one_hot=True)$/;"	kind:variable	line:23
+decfun	../lab0/binlogreg.py	/^    decfun = binlogreg_decfun(w,b)$/;"	kind:variable	line:71
+decfun	../lab0/logreg.py	/^    decfun = logreg_decfun(X, W, b)$/;"	kind:variable	line:85
+decfun	../lab1/tf_deep.py	/^    decfun = lambda x: model.eval(x)[:,0]$/;"	kind:variable	line:147
+decfun	../lab1/tf_logreg.py	/^    decfun = lambda x: tflr.eval(x).max(axis=1)$/;"	kind:variable	line:88
+decfunc	../lab1/fcann2.py	/^    decfunc = fcann2_classify_new(W1, b1, W2, b2)$/;"	kind:variable	line:66
+draw_conv_filters	../lab2/nn.py	/^def draw_conv_filters(epoch, step, layer, save_dir):$/;"	kind:function	line:38
+draw_conv_filters	../lab2/tf_cifar.py	/^def draw_conv_filters(session, layer, epoch, step, name, save_dir):$/;"	kind:function	line:114
+draw_conv_filters	../lab2/tf_train_l2reg.py	/^def draw_conv_filters(session, layer, epoch, step, name, save_dir):$/;"	kind:function	line:75
+eval	../lab1/tf_deep.py	/^    def eval(self, X):$/;"	kind:member	line:96
+eval	../lab1/tf_logreg.py	/^    def eval(self, X):$/;"	kind:member	line:54
+eval_AP	../lab0/data.py	/^def eval_AP(ranked_labels):$/;"	kind:function	line:138
+eval_AP	../lab1/data.py	/^def eval_AP(ranked_labels):$/;"	kind:function	line:137
+eval_numerical_gradient	../lab2/check_grads.py	/^def eval_numerical_gradient(f, x, df, h=1e-5):$/;"	kind:function	line:8
+eval_perf_binary	../lab0/data.py	/^def eval_perf_binary(Y, Y_):$/;"	kind:function	line:110
+eval_perf_binary	../lab1/data.py	/^def eval_perf_binary(Y, Y_):$/;"	kind:function	line:110
+eval_perf_multi	../lab0/data.py	/^def eval_perf_multi(Y, Y_):$/;"	kind:function	line:120
+eval_perf_multi	../lab1/data.py	/^def eval_perf_multi(Y, Y_):$/;"	kind:function	line:120
+eval_perf_multi	../lab1/mnist_shootout.py	/^from data import eval_perf_multi$/;"	kind:namespace	line:4
+evaluate	../lab2/nn.py	/^def evaluate(name, x, y, net, loss, config):$/;"	kind:function	line:105
+ext_modules	../lab2/setup_cython.py	/^    ext_modules = cythonize(extensions),$/;"	kind:variable	line:17
+extensions	../lab2/setup_cython.py	/^extensions = [$/;"	kind:variable	line:10
+fc	../lab2/check_grads.py	/^fc = layers.FC(x, 30, "fc")$/;"	kind:variable	line:95
+fc_layer	../lab2/tf_cifar.py	/^def fc_layer(input, units, activation=tf.nn.relu, regularizer=tf.contrib.layers.l2_regularizer(scale=WEIGHT_DECAY), name=None):$/;"	kind:function	line:81
+fc_layer	../lab2/tf_train_l2reg.py	/^def fc_layer(input, units, activation=tf.nn.relu, regularizer=tf.contrib.layers.l2_regularizer(scale=WEIGHT_DECAY), name=None):$/;"	kind:function	line:43
+fcann2.py	../lab1/fcann2.py	1;"	kind:file	line:1
+fcann2_classify	../lab1/fcann2.py	/^def fcann2_classify(X, W_1, b_1, W_2, b_2):$/;"	kind:function	line:53
+fcann2_classify_new	../lab1/fcann2.py	/^def fcann2_classify_new(W_1, b_1, W_2, b_2):$/;"	kind:function	line:57
+fcann2_train	../lab1/fcann2.py	/^def fcann2_train(X, Y_, param_niter=100000, param_delta=0.05, param_lambda=1e-3, param_hidden_dim=5, print_step=1000):$/;"	kind:function	line:5
+feed_dict	../lab1/tf_linreg.py	/^        feed_dict={X: [1, 2], Y_: [3, 5]})$/;"	kind:variable	line:37
+fit	../lab2/tf_cifar.py	/^def fit():$/;"	kind:function	line:135
+fit	../lab2/tf_train_l2reg.py	/^def fit():$/;"	kind:function	line:98
+forward	../lab2/layers.py	/^  def forward(self):$/;"	kind:member	line:300
+forward	../lab2/layers.py	/^  def forward(self, inputs):$/;"	kind:member	line:164
+forward	../lab2/layers.py	/^  def forward(self, inputs):$/;"	kind:member	line:200
+forward	../lab2/layers.py	/^  def forward(self, inputs):$/;"	kind:member	line:237
+forward	../lab2/layers.py	/^  def forward(self, inputs):$/;"	kind:member	line:25
+forward	../lab2/layers.py	/^  def forward(self, x):$/;"	kind:member	line:127
+forward	../lab2/layers.py	/^  def forward(self, x):$/;"	kind:member	line:90
+forward	../lab2/layers.py	/^  def forward(self, x, y):$/;"	kind:member	line:263
+forward	../lab2/layers.py	/^  def forward(self, x, y):$/;"	kind:member	line:322
+forward_pass	../lab1/fcann2.py	/^def forward_pass(X, W_1, b_1, W_2, b_2):$/;"	kind:function	line:47
+forward_pass	../lab2/nn.py	/^def forward_pass(net, inputs):$/;"	kind:function	line:9
+func	../lab2/check_grads.py	/^func = lambda params: l2reg.forward()$/;"	kind:variable	line:117
+get_Ws	../lab1/tf_deep.py	/^    def get_Ws(self):$/;"	kind:member	line:121
+get_mnist_dataset	../lab2/tf_train_l2reg.py	/^def get_mnist_dataset(data_dir):    $/;"	kind:function	line:17
+get_scores	../lab1/ksvm_wrap.py	/^    def get_scores(self, X):$/;"	kind:member	line:19
+get_trainable_weights	../lab2/tf_cifar.py	/^def get_trainable_weights():$/;"	kind:function	line:91
+get_trainable_weights	../lab2/tf_train_l2reg.py	/^def get_trainable_weights():$/;"	kind:function	line:67
+grad	../lab2/check_grads.py	/^grad = grads[0][1]$/;"	kind:variable	line:120
+grad_num	../lab2/check_grads.py	/^grad_num = eval_numerical_gradient(func, l2reg.weights, 1)$/;"	kind:variable	line:118
+grad_out	../lab2/check_grads.py	/^grad_out = np.random.randn(20, 30)$/;"	kind:variable	line:94
+grad_out	../lab2/check_grads.py	/^grad_out = np.random.randn(4, 2, 5, 5)$/;"	kind:variable	line:71
+grad_out	../lab2/check_grads.py	/^grad_out = np.random.randn(4, 3, 5, 5)$/;"	kind:variable	line:87
+grad_out	../lab2/check_grads.py	/^grad_out = np.random.randn(5, 4, 4, 4)$/;"	kind:variable	line:114
+grad_out	../lab2/check_grads.py	/^grad_out = np.random.randn(5, 4, 4, 4)$/;"	kind:variable	line:80
+grad_x	../lab2/check_grads.py	/^grad_x = loss.backward_inputs(x, y)$/;"	kind:variable	line:108
+grad_x_num	../lab2/check_grads.py	/^grad_x_num = eval_numerical_gradient(lambda x: loss.forward(x, y), x, 1)$/;"	kind:variable	line:106
+grads	../lab1/tf_linreg.py	/^grads = [pair[0] for pair in grads_and_vars]$/;"	kind:variable	line:25
+grads	../lab1/tf_linreg.py	/^grads = tf.Print(grads, [grads], 'Gradients: ')$/;"	kind:variable	line:26
+grads	../lab2/check_grads.py	/^grads = l2reg.backward_params()$/;"	kind:variable	line:119
+grads_and_vars	../lab1/tf_linreg.py	/^grads_and_vars = trainer.compute_gradients(loss, [a, b])$/;"	kind:variable	line:23
+graph_data	../lab0/data.py	/^def graph_data(X,Y_, Y, special=[]):$/;"	kind:function	line:73
+graph_data	../lab1/data.py	/^def graph_data(X,Y_, Y, special=[]):$/;"	kind:function	line:73
+graph_surface	../lab0/data.py	/^def graph_surface(function, rect, offset=0.5, width=256, height=256):$/;"	kind:function	line:41
+graph_surface	../lab1/data.py	/^def graph_surface(function, rect, offset=0.5, width=256, height=256):$/;"	kind:function	line:41
+im2col_cython	../lab2/im2col_cython.pyx	/^def im2col_cython(np.ndarray[DTYPE_t, ndim=4] x, int field_height,$/;"	kind:function	line:37
+im2col_cython	../lab2/layers.py	/^from im2col_cython import col2im_cython, im2col_cython$/;"	kind:namespace	line:6
+im2col_cython.pyx	../lab2/im2col_cython.pyx	1;"	kind:file	line:1
+im2col_cython_inner	../lab2/im2col_cython.pyx	/^cdef int im2col_cython_inner(np.ndarray[DTYPE_t, ndim=2] cols,$/;"	kind:function	line:64
+include_dirs	../lab2/setup_cython.py	/^            include_dirs = [numpy.get_include()]$/;"	kind:variable	line:12
+input_data	../lab1/mnist_shootout.py	/^from tensorflow.examples.tutorials.mnist import input_data$/;"	kind:namespace	line:5
+input_data	../lab2/tf_train_l2reg.py	/^from tensorflow.examples.tutorials.mnist import input_data$/;"	kind:namespace	line:8
+input_data	../lab2/train.py	/^from tensorflow.examples.tutorials.mnist import input_data$/;"	kind:namespace	line:5
+input_data	../lab2/train_l2reg.py	/^from tensorflow.examples.tutorials.mnist import input_data$/;"	kind:namespace	line:5
+inputs	../lab2/train.py	/^inputs = np.random.randn(config['batch_size'], 1, 28, 28)$/;"	kind:variable	line:39
+inputs	../lab2/train_l2reg.py	/^inputs = np.random.randn(config['batch_size'], 1, 28, 28)$/;"	kind:variable	line:41
+io	../lab2/nn.py	/^import skimage.io$/;"	kind:namespace	line:6
+io	../lab2/tf_cifar.py	/^import skimage.io$/;"	kind:namespace	line:5
+io	../lab2/tf_train_l2reg.py	/^import skimage.io$/;"	kind:namespace	line:7
+iterate_minibatches	../lab1/tf_deep.py	/^    def iterate_minibatches(self, X, Y_, batch_size):$/;"	kind:member	line:114
+iterate_minibatches	../lab2/tf_cifar.py	/^def iterate_minibatches(X, Y_, batch_size):$/;"	kind:function	line:84
+iterate_minibatches	../lab2/tf_train_l2reg.py	/^def iterate_minibatches(X, Y_, batch_size):$/;"	kind:function	line:60
+ksvm_wrap.py	../lab1/ksvm_wrap.py	1;"	kind:file	line:1
+l2reg	../lab2/check_grads.py	/^l2reg = layers.L2Regularizer(x, 1e-2, 'L2reg')$/;"	kind:variable	line:115
+layers	../lab1/tf_deep.py	/^    layers = [X.shape[1], 10, 10, Yoh_.shape[1]]$/;"	kind:variable	line:134
+layers	../lab2/check_grads.py	/^import layers$/;"	kind:namespace	line:2
+layers	../lab2/train.py	/^import layers$/;"	kind:namespace	line:9
+layers	../lab2/train_l2reg.py	/^import layers$/;"	kind:namespace	line:9
+layers.py	../lab2/layers.py	1;"	kind:file	line:1
+load_cifar	../lab2/tf_cifar.py	/^def load_cifar(data_dir):$/;"	kind:function	line:38
+logreg.py	../lab0/logreg.py	1;"	kind:file	line:1
+logreg_classify	../lab0/logreg.py	/^def logreg_classify(X, W, b):$/;"	kind:function	line:52
+logreg_decfun	../lab0/logreg.py	/^def logreg_decfun(X, W, b):$/;"	kind:function	line:68
+logreg_train	../lab0/logreg.py	/^def logreg_train(X, Y_, param_niter=10000, param_delta=0.8):$/;"	kind:function	line:13
+loss	../lab1/tf_linreg.py	/^loss = (Y - Y_)**2$/;"	kind:variable	line:16
+loss	../lab2/check_grads.py	/^loss = layers.SoftmaxCrossEntropyWithLogits()$/;"	kind:variable	line:105
+loss	../lab2/train.py	/^loss = layers.SoftmaxCrossEntropyWithLogits()$/;"	kind:variable	line:52
+loss	../lab2/train_l2reg.py	/^loss = layers.RegularizedLoss(data_loss, regularizers)$/;"	kind:variable	line:58
+loss_grad_a	../lab1/tf_linreg.py	/^loss_grad_a = tf.reduce_sum(2 * (a * X + b - Y_) * X)$/;"	kind:variable	line:18
+loss_grad_b	../lab1/tf_linreg.py	/^loss_grad_b = tf.reduce_sum(2 * (a * X + b - Y_))$/;"	kind:variable	line:19
+math	../lab2/nn.py	/^import math$/;"	kind:namespace	line:2
+math	../lab2/tf_cifar.py	/^import math$/;"	kind:namespace	line:3
+math	../lab2/tf_train_l2reg.py	/^import math$/;"	kind:namespace	line:3
+matplotlib	../lab0/binlogreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../lab0/data.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../lab0/logreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../lab1/data.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../lab1/fcann2.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../lab1/ksvm_wrap.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+matplotlib	../lab1/mnist_shootout.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:8
+matplotlib	../lab1/tf_deep.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../lab1/tf_linreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../lab1/tf_logreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+max_pool_layer	../lab2/tf_cifar.py	/^def max_pool_layer(inputs, pool_size=[2, 2], strides=2, name=None):$/;"	kind:function	line:78
+max_pool_layer	../lab2/tf_train_l2reg.py	/^def max_pool_layer(inputs, pool_size=[2, 2], strides=2, name=None):$/;"	kind:function	line:40
+mnist	../lab1/mnist_shootout.py	/^mnist = input_data.read_data_sets(tf.app.flags.FLAGS.data_dir, one_hot=True)$/;"	kind:variable	line:11
+mnist_shootout.py	../lab1/mnist_shootout.py	1;"	kind:file	line:1
+model	../lab1/mnist_shootout.py	/^model = TFDeep([D, 100, C], param_delta=1e-3, param_lambda=0.001, optimizer=tf.train.AdamOptimizer, use_decay=True)$/;"	kind:variable	line:58
+model	../lab1/mnist_shootout.py	/^model = TFDeep([D, C], param_delta=0.15, param_lambda=0.001)$/;"	kind:variable	line:22
+model	../lab1/mnist_shootout.py	/^model = TFDeep([D, C], param_delta=0.15, param_lambda=0.001)$/;"	kind:variable	line:35
+model	../lab1/mnist_shootout.py	/^model = TFDeep([D, C], param_delta=0.15, param_lambda=0.01)$/;"	kind:variable	line:41
+model	../lab1/mnist_shootout.py	/^model = TFDeep([D, C], param_delta=1e-4, param_lambda=0.01, optimizer=tf.train.AdamOptimizer)$/;"	kind:variable	line:52
+model	../lab1/mnist_shootout.py	/^model = svm.SVC(decision_function_shape='ovo', cache_size=1000)$/;"	kind:variable	line:65
+model	../lab1/mnist_shootout.py	/^model = svm.SVC(decision_function_shape='ovo', kernel='linear', cache_size=1000)$/;"	kind:variable	line:71
+model	../lab1/tf_deep.py	/^    model = TFDeep(layers, activation=tf.nn.relu)$/;"	kind:variable	line:135
+model1	../lab1/mnist_shootout.py	/^model1 = TFDeep([D, 100, C], param_delta=0.0015, param_lambda=0.000001)$/;"	kind:variable	line:29
+myDummyDecision	../lab0/data.py	/^def myDummyDecision(X):$/;"	kind:function	line:193
+myDummyDecision	../lab1/data.py	/^def myDummyDecision(X):$/;"	kind:function	line:192
+net	../lab2/train.py	/^net = []$/;"	kind:variable	line:38
+net	../lab2/train_l2reg.py	/^net = []$/;"	kind:variable	line:39
+nn	../lab2/train.py	/^import nn$/;"	kind:namespace	line:7
+nn	../lab2/train_l2reg.py	/^import nn$/;"	kind:namespace	line:7
+nn.py	../lab2/nn.py	1;"	kind:file	line:1
+np	../lab0/binlogreg.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab0/data.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../lab0/logreg.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab1/data.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../lab1/fcann2.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab1/ksvm_wrap.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab1/mnist_shootout.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab1/tf_deep.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab1/tf_linreg.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab1/tf_logreg.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab2/check_grads.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../lab2/im2col_cython.pyx	/^cimport numpy as np$/;"	kind:namespace	line:27
+np	../lab2/im2col_cython.pyx	/^import numpy as np$/;"	kind:namespace	line:26
+np	../lab2/layers.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lab2/nn.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../lab2/tf_cifar.py	/^import numpy as np$/;"	kind:namespace	line:6
+np	../lab2/tf_train_l2reg.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../lab2/train.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../lab2/train_l2reg.py	/^import numpy as np$/;"	kind:namespace	line:3
+numpy	../lab2/setup_cython.py	/^import numpy$/;"	kind:namespace	line:8
+os	../lab2/nn.py	/^import os$/;"	kind:namespace	line:1
+os	../lab2/tf_cifar.py	/^import os$/;"	kind:namespace	line:2
+os	../lab2/tf_train_l2reg.py	/^import os$/;"	kind:namespace	line:2
+out	../lab2/check_grads.py	/^out = loss.forward(x, y)$/;"	kind:variable	line:107
+pdb	../lab1/data.py	/^  import pdb; pdb.set_trace()$/;"	kind:namespace	line:213
+pdb	../lab2/tf_train_l2reg.py	/^    import pdb; pdb.set_trace()$/;"	kind:namespace	line:32
+pickle	../lab2/tf_cifar.py	/^import pickle$/;"	kind:namespace	line:4
+plt	../lab0/binlogreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../lab0/data.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../lab0/logreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../lab1/data.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../lab1/fcann2.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../lab1/ksvm_wrap.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+plt	../lab1/mnist_shootout.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:8
+plt	../lab1/tf_deep.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../lab1/tf_linreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../lab1/tf_logreg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+pool	../lab2/check_grads.py	/^pool = layers.MaxPooling(x, "pool", 2, 2)$/;"	kind:variable	line:81
+precision_score	../lab0/data.py	/^from sklearn.metrics import accuracy_score, recall_score, precision_score$/;"	kind:namespace	line:4
+precision_score	../lab1/data.py	/^from sklearn.metrics import accuracy_score, recall_score, precision_score$/;"	kind:namespace	line:4
+predict	../lab1/ksvm_wrap.py	/^    def predict(self, X):$/;"	kind:member	line:16
+probs	../lab0/binlogreg.py	/^    probs = binlogreg_classify(X, w,b)$/;"	kind:variable	line:68
+probs	../lab0/logreg.py	/^    probs = logreg_classify(X, W, b)$/;"	kind:variable	line:81
+probs	../lab1/tf_logreg.py	/^    probs = tflr.eval(X)$/;"	kind:variable	line:78
+random	../lab0/data.py	/^import random$/;"	kind:namespace	line:3
+random	../lab1/data.py	/^import random$/;"	kind:namespace	line:3
+recall_score	../lab0/data.py	/^from sklearn.metrics import accuracy_score, recall_score, precision_score$/;"	kind:namespace	line:4
+recall_score	../lab1/data.py	/^from sklearn.metrics import accuracy_score, recall_score, precision_score$/;"	kind:namespace	line:4
+rect	../lab0/data.py	/^  rect=(np.min(X, axis=0), np.max(X, axis=0))$/;"	kind:variable	line:211
+regularizers	../lab2/train_l2reg.py	/^regularizers = []$/;"	kind:variable	line:40
+rel_error	../lab2/check_grads.py	/^def rel_error(x, y):$/;"	kind:function	line:4
+relu	../lab2/check_grads.py	/^relu = layers.ReLU(x, "relu")$/;"	kind:variable	line:88
+sample_gauss	../lab0/data.py	/^def sample_gauss(nclasses, nsamples):$/;"	kind:function	line:165
+sample_gauss	../lab1/data.py	/^def sample_gauss(nclasses, nsamples):$/;"	kind:function	line:164
+sample_gmm	../lab0/data.py	/^def sample_gmm(ncomponents, nclasses, nsamples):$/;"	kind:function	line:179
+sample_gmm	../lab1/data.py	/^def sample_gmm(ncomponents, nclasses, nsamples):$/;"	kind:function	line:178
+sample_gmm_2d	../lab1/data.py	/^def sample_gmm_2d(K, C, N):$/;"	kind:function	line:196
+scalecov	../lab0/data.py	/^  scalecov=5$/;"	kind:variable	line:25
+scalecov	../lab1/data.py	/^  scalecov=5$/;"	kind:variable	line:25
+scipy	../lab2/layers.py	/^import scipy$/;"	kind:namespace	line:3
+scipy	../lab2/layers.py	/^import scipy.stats as stats$/;"	kind:namespace	line:4
+sess	../lab1/tf_linreg.py	/^sess = tf.Session()$/;"	kind:variable	line:29
+set_trace	../lab1/data.py	/^  import pdb; pdb.set_trace()$/;"	kind:namespace	line:213
+set_trace	../lab2/tf_train_l2reg.py	/^    import pdb; pdb.set_trace()$/;"	kind:namespace	line:32
+setup	../lab2/setup_cython.py	/^from distutils.core import setup$/;"	kind:namespace	line:5
+setup_cython.py	../lab2/setup_cython.py	1;"	kind:file	line:1
+sgd_update_params	../lab2/nn.py	/^def sgd_update_params(grads, config):$/;"	kind:function	line:28
+shuffle_data	../lab2/tf_cifar.py	/^def shuffle_data(data_x, data_y):$/;"	kind:function	line:20
+sigmoid	../lab0/binlogreg.py	/^def sigmoid(x):$/;"	kind:function	line:5
+sigmoid	../lab0/logreg.py	/^def sigmoid(x):$/;"	kind:function	line:5
+ski	../lab2/nn.py	/^import skimage as ski$/;"	kind:namespace	line:5
+ski	../lab2/tf_cifar.py	/^import skimage as ski$/;"	kind:namespace	line:8
+ski	../lab2/tf_train_l2reg.py	/^import skimage as ski$/;"	kind:namespace	line:6
+skimage	../lab2/nn.py	/^import skimage.io$/;"	kind:namespace	line:6
+skimage	../lab2/tf_cifar.py	/^import skimage.io$/;"	kind:namespace	line:5
+skimage	../lab2/tf_train_l2reg.py	/^import skimage.io$/;"	kind:namespace	line:7
+softmax	../lab2/layers.py	/^def softmax(x):$/;"	kind:function	line:14
+stable_softmax	../lab0/logreg.py	/^def stable_softmax(x):$/;"	kind:function	line:8
+stats	../lab2/layers.py	/^import scipy.stats as stats$/;"	kind:namespace	line:4
+support	../lab1/ksvm_wrap.py	/^    def support(self):$/;"	kind:member	line:22
+svm	../lab1/ksvm_wrap.py	/^    svm = KSVMWrap(X, Y_)$/;"	kind:variable	line:28
+svm	../lab1/ksvm_wrap.py	/^from sklearn import svm$/;"	kind:namespace	line:1
+svm	../lab1/mnist_shootout.py	/^from sklearn import svm$/;"	kind:namespace	line:7
+test_x	../lab2/train.py	/^test_x = dataset.test.images$/;"	kind:variable	line:29
+test_x	../lab2/train.py	/^test_x = test_x.reshape([-1, 1, 28, 28])$/;"	kind:variable	line:30
+test_x	../lab2/train_l2reg.py	/^test_x = dataset.test.images$/;"	kind:variable	line:30
+test_x	../lab2/train_l2reg.py	/^test_x = test_x.reshape([-1, 1, 28, 28])$/;"	kind:variable	line:31
+test_y	../lab2/train.py	/^test_y = dataset.test.labels$/;"	kind:variable	line:31
+test_y	../lab2/train_l2reg.py	/^test_y = dataset.test.labels$/;"	kind:variable	line:32
+tf	../lab1/mnist_shootout.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tf	../lab1/tf_deep.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tf	../lab1/tf_linreg.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tf	../lab1/tf_logreg.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tf	../lab2/tf_cifar.py	/^import tensorflow as tf$/;"	kind:namespace	line:7
+tf	../lab2/tf_train_l2reg.py	/^import tensorflow as tf$/;"	kind:namespace	line:5
+tf	../lab2/train.py	/^import tensorflow as tf$/;"	kind:namespace	line:4
+tf	../lab2/train_l2reg.py	/^import tensorflow as tf$/;"	kind:namespace	line:4
+tf_cifar.py	../lab2/tf_cifar.py	1;"	kind:file	line:1
+tf_deep.py	../lab1/tf_deep.py	1;"	kind:file	line:1
+tf_linreg.py	../lab1/tf_linreg.py	1;"	kind:file	line:1
+tf_logreg.py	../lab1/tf_logreg.py	1;"	kind:file	line:1
+tf_train_l2reg.py	../lab2/tf_train_l2reg.py	1;"	kind:file	line:1
+tflr	../lab1/tf_logreg.py	/^    tflr = TFLogreg(X.shape[1], Yoh_.shape[1], 0.5)$/;"	kind:variable	line:72
+time	../lab2/tf_cifar.py	/^import time$/;"	kind:namespace	line:1
+time	../lab2/tf_train_l2reg.py	/^import time$/;"	kind:namespace	line:1
+time	../lab2/train.py	/^import time$/;"	kind:namespace	line:1
+time	../lab2/train_l2reg.py	/^import time$/;"	kind:namespace	line:1
+to_one_hot	../lab2/tf_cifar.py	/^def to_one_hot(class_index, class_num=10):$/;"	kind:function	line:33
+train	../lab1/tf_deep.py	/^    def train(self, X, Yoh_, param_niter, print_step=1000):$/;"	kind:member	line:54
+train	../lab1/tf_logreg.py	/^    def train(self, X, Yoh_, param_niter, print_step=1000):$/;"	kind:member	line:38
+train	../lab2/nn.py	/^def train(train_x, train_y, valid_x, valid_y, net, loss, config):$/;"	kind:function	line:62
+train.py	../lab2/train.py	1;"	kind:file	line:1
+train_l2reg.py	../lab2/train_l2reg.py	1;"	kind:file	line:1
+train_mb	../lab1/tf_deep.py	/^    def train_mb(self, X, Yoh_, param_niter, batch_size=32, print_step=10):$/;"	kind:member	line:86
+train_mean	../lab2/train.py	/^train_mean = train_x.mean()$/;"	kind:variable	line:32
+train_mean	../lab2/train_l2reg.py	/^train_mean = train_x.mean()$/;"	kind:variable	line:33
+train_op	../lab1/tf_linreg.py	/^train_op = trainer.apply_gradients(grads_and_vars)$/;"	kind:variable	line:24
+train_test_split	../lab1/mnist_shootout.py	/^from sklearn.model_selection import train_test_split$/;"	kind:namespace	line:6
+train_val	../lab1/tf_deep.py	/^    def train_val(self, X, Yoh_, X_val, Y_val_oh_, param_niter, validation_step=10):  $/;"	kind:member	line:69
+train_x	../lab2/train.py	/^train_x = dataset.train.images$/;"	kind:variable	line:23
+train_x	../lab2/train.py	/^train_x = train_x.reshape([-1, 1, 28, 28])$/;"	kind:variable	line:24
+train_x	../lab2/train_l2reg.py	/^train_x = dataset.train.images$/;"	kind:variable	line:24
+train_x	../lab2/train_l2reg.py	/^train_x = train_x.reshape([-1, 1, 28, 28])$/;"	kind:variable	line:25
+train_y	../lab2/train.py	/^train_y = dataset.train.labels$/;"	kind:variable	line:25
+train_y	../lab2/train_l2reg.py	/^train_y = dataset.train.labels$/;"	kind:variable	line:26
+trainer	../lab1/tf_linreg.py	/^trainer = tf.train.GradientDescentOptimizer(0.1)$/;"	kind:variable	line:22
+unpickle	../lab2/tf_cifar.py	/^def unpickle(file):$/;"	kind:function	line:27
+valid_x	../lab2/train.py	/^valid_x = dataset.validation.images$/;"	kind:variable	line:26
+valid_x	../lab2/train.py	/^valid_x = valid_x.reshape([-1, 1, 28, 28])$/;"	kind:variable	line:27
+valid_x	../lab2/train_l2reg.py	/^valid_x = dataset.validation.images$/;"	kind:variable	line:27
+valid_x	../lab2/train_l2reg.py	/^valid_x = valid_x.reshape([-1, 1, 28, 28])$/;"	kind:variable	line:28
+valid_y	../lab2/train.py	/^valid_y = dataset.validation.labels$/;"	kind:variable	line:28
+valid_y	../lab2/train_l2reg.py	/^valid_y = dataset.validation.labels$/;"	kind:variable	line:29
+variance_scaling_initializer	../lab2/layers.py	/^def variance_scaling_initializer(shape, fan_in, factor=2.0, seed=None):$/;"	kind:function	line:10
+weight_decay	../lab2/train_l2reg.py	/^weight_decay = config['weight_decay']$/;"	kind:variable	line:38
+x	../lab2/check_grads.py	/^x = np.random.randn(20, 40)$/;"	kind:variable	line:93
+x	../lab2/check_grads.py	/^x = np.random.randn(4, 3, 5, 5)$/;"	kind:variable	line:70
+x	../lab2/check_grads.py	/^x = np.random.randn(4, 3, 5, 5)$/;"	kind:variable	line:86
+x	../lab2/check_grads.py	/^x = np.random.randn(5, 4, 8, 8)$/;"	kind:variable	line:113
+x	../lab2/check_grads.py	/^x = np.random.randn(5, 4, 8, 8)$/;"	kind:variable	line:79
+x	../lab2/check_grads.py	/^x = np.random.randn(50, 20)$/;"	kind:variable	line:102
+y	../lab2/check_grads.py	/^y = np.zeros([50, 20])$/;"	kind:variable	line:103
+zero_init	../lab2/layers.py	/^zero_init = np.zeros$/;"	kind:variable	line:8

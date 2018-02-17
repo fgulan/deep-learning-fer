@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHARACTER_LINE	../select_preprocess.py	/^CHARACTER_LINE = -1$/;"	kind:variable	line:23
+CHARACTER_NAME	../select_preprocess.py	/^CHARACTER_NAME = -2$/;"	kind:variable	line:22
+Counter	../dataset.py	/^from collections import Counter$/;"	kind:namespace	line:3
+Dataset	../dataset.py	/^class Dataset():$/;"	kind:class	line:5
+MOVIE_ID	../select_preprocess.py	/^MOVIE_ID = 0$/;"	kind:variable	line:17
+MOVIE_ID_FULL	../select_preprocess.py	/^MOVIE_ID_FULL = 2$/;"	kind:variable	line:20
+RNN	../rnn.py	/^class RNN:$/;"	kind:class	line:3
+__init__	../dataset.py	/^    def __init__(self, batch_size=128, sequence_length=61):$/;"	kind:member	line:7
+__init__	../rnn.py	/^    def __init__(self, hidden_size, sequence_length, vocab_size, learning_rate):$/;"	kind:member	line:5
+create_minibatches	../dataset.py	/^    def create_minibatches(self):$/;"	kind:member	line:39
+dataset.py	../dataset.py	1;"	kind:file	line:1
+decode	../dataset.py	/^    def decode(self, encoded_sequence):$/;"	kind:member	line:31
+decode_str	../dataset.py	/^    def decode_str(self, encoded_sequence):$/;"	kind:member	line:35
+ds	../dataset.py	/^    ds = Dataset()$/;"	kind:variable	line:74
+encode	../dataset.py	/^    def encode(self, sequence):$/;"	kind:member	line:27
+filter	../select_preprocess.py	/^def filter(string):$/;"	kind:function	line:30
+full_dataset	../select_preprocess.py	/^full_dataset = 'movie_lines.txt'$/;"	kind:variable	line:8
+main	../select_preprocess.py	/^def main():$/;"	kind:function	line:83
+minibatch_generator	../dataset.py	/^    def minibatch_generator(self):$/;"	kind:member	line:58
+movie_selection	../select_preprocess.py	/^movie_selection = 'selected_movies.txt'$/;"	kind:variable	line:11
+next_minibatch	../dataset.py	/^    def next_minibatch(self):$/;"	kind:member	line:63
+np	../dataset.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../rnn.py	/^import numpy as np$/;"	kind:namespace	line:1
+number_from_id	../select_preprocess.py	/^def number_from_id(id):$/;"	kind:function	line:35
+os	../dataset.py	/^import os$/;"	kind:namespace	line:1
+os	../select_preprocess.py	/^import os, sys$/;"	kind:namespace	line:1
+output_destination	../select_preprocess.py	/^output_destination = 'selected_conversations.txt'$/;"	kind:variable	line:10
+preprocess	../dataset.py	/^    def preprocess(self, input_file):$/;"	kind:member	line:12
+re	../select_preprocess.py	/^import re$/;"	kind:namespace	line:2
+read_selected	../select_preprocess.py	/^def read_selected(path_to_selected_movies):$/;"	kind:function	line:40
+repl	../select_preprocess.py	/^repl = r'[^A-Za-z0-9()\\,!\\?\\'\\`\\. ]'$/;"	kind:variable	line:26
+rnn.py	../rnn.py	1;"	kind:file	line:1
+rnn_forward	../rnn.py	/^    def rnn_forward(self, x, h0, U, W, b):$/;"	kind:member	line:42
+rnn_step_forward	../rnn.py	/^    def rnn_step_forward(self, x, h_prev, U=None, W=None, b=None):$/;"	kind:member	line:23
+root	../select_preprocess.py	/^root = 'data'$/;"	kind:variable	line:5
+select_and_write	../select_preprocess.py	/^def select_and_write(path_to_full_dataset, path_to_output, selected_movies):$/;"	kind:function	line:51
+select_preprocess.py	../select_preprocess.py	1;"	kind:file	line:1
+separator	../select_preprocess.py	/^separator = ' +++$+++ '$/;"	kind:variable	line:14
+sys	../select_preprocess.py	/^import os, sys$/;"	kind:namespace	line:1
